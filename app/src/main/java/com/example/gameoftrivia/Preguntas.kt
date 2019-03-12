@@ -1,4 +1,5 @@
 package com.example.gameoftrivia
 
-class Preguntas(val numero: Int, val pregunta: String, val mala1: String, val mala2: String, val correcta: String) {
+class preguntas(var numero: Int, var pregunta: String, var mala1: String, var mala2: String, var correcta: String) {
+
 }

@@ -13,7 +13,17 @@ class selecion_dificultad : AppCompatActivity() {
 
         BtnFacil.setOnClickListener{
             val intent = Intent(this, Activity_juego::class.java)
-            intent.putExtra("1", "facil")
+            intent.putExtra("1", "facil.json")
+            startActivity(intent)
+        }
+        BtnMedia.setOnClickListener{
+            val intent = Intent(this, Activity_juego::class.java)
+            intent.putExtra("1", "medio.json")
+            startActivity(intent)
+        }
+        BtnDificil.setOnClickListener{
+            val intent = Intent(this, Activity_juego::class.java)
+            intent.putExtra("1", "dificil.json")
             startActivity(intent)
         }
 

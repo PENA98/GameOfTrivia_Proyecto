@@ -7,9 +7,7 @@ import android.util.Log
 import android.widget.RadioButton
 import android.widget.TextView
 import com.google.gson.Gson
-import java.io.FileInputStream
 import java.io.IOException
-import com.google.gson.reflect.TypeToken
 
 
 
@@ -31,12 +29,9 @@ class Activity_juego : AppCompatActivity() {
         val nombre = objetoIntent.getStringExtra("1")
         opcion = nombre
 
-        if(opcion == "facil"){
-
-            val contenidoArchivo : String = ReadDataFromFile("facil.json");
-                Log.d("resultado", contenidoArchivo)
-                jsonToObject(contenidoArchivo)
-        }
+        val contenidoArchivo : String = ReadDataFromFile(opcion.toString())
+        Log.d("resultado", contenidoArchivo)
+        jsonToObject(contenidoArchivo)
     }
 
     fun ReadDataFromFile(file: String): String {
@@ -59,9 +54,10 @@ class Activity_juego : AppCompatActivity() {
 
     fun jsonToObject(setPreguntas: String) {
         // Inicializar un objeto de tipo Gson
-        val PreguntasListType = object : TypeToken<ArrayList<Preguntas>>() {}.javaClass
+        //val PreguntasListType  = object : TypeToken<ArrayList<PreguntasListas>>() {}.javaClass
         val gson = Gson()
-        val parseado = gson.fromJson(setPreguntas, PreguntasListType)
+
+        var parseado = gson.fromJson(setPreguntas, PreguntasListas::class.java)
         // Mapear las variables a las vistas del layout
         Pregunta = findViewById(R.id.tvPregunta)
         rbResp1 = findViewById(R.id.rbResp1)
@@ -69,9 +65,14 @@ class Activity_juego : AppCompatActivity() {
         rbResp3 = findViewById(R.id.rbResp3)
 
         // Asignar los valores obtenidos a los radio buttons y el text view
-        Pregunta?.text = "${parseado.rawType}"
-
-
+        var resp : Boolean = false
+        for ( parse in parseado.preguntas){
+                Pregunta?.text = parse.pregunta
+                rbResp1?.text = parse.mala1
+                rbResp2?.text = parse.mala2
+                rbResp3?.text = parse.correcta
+            continue
+        }
     }
 
 }
