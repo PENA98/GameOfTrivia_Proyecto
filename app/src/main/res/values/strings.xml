@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GAME OF TRIVIA</string>
+    <string name="descBtnJugar">Boton para Jugar</string>
+    <string name="descBtnSalir">Boton para salir de la aplicacion</string>
+    <string name="descripcionGeneral">None</string>
+</resources>
