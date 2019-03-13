@@ -1,15 +1,15 @@
 {
 	"preguntas":
 [
-	{"numero":"1", "pregunta":"¿Cómo se llamaba la madre de Tyrion Lannister?", "mala1":"Cersei Lannister", "mala2":"Gena Lannister", "correcta":"Joanna Lannister"},
-	{"numero":"2", "pregunta":"¿Cuántos lobos huargos tenían los Stark?", "mala1":"4", "mala2":"5", "correcta":"6"},
-	{"numero":"3", "pregunta":"¿Cómo murió Jon Arryn, el antecesor de Ned Stark como Mano del Rey?", "mala1":"De un infarto ", "mala2":"Acuchillado", "correcta":"Envenenado"},
-	{"numero":"4", "pregunta":"¿Porqué lo único que dice este personaje es 'Hodor'?", "mala1":"Es su nombre", "mala2":"No le enseñaron más palabras", "correcta":"Es la abreviatura de 'Hold the Door'"},
-	{"numero":"5", "pregunta":"¿Cuál fue la causa de muerte de Khal Drogo?", "mala1":"Veneno", "mala2":"Una estampida de caballos", "correcta":"Una herida abierta"},
-	{"numero":"6", "pregunta":"¿Cuál es el nombre de la hija bastarda de Lord Harmen Uller?", "mala1":"Tyene Sand", "mala2":"Nymeria Sand", "correcta":"Ellaria Sand"},
-	{"numero":"7", "pregunta":"¿Con quién debía casarse originalmente Robert Baratheon?", "mala1":"Catelyn Tully", "mala2":"Elia Martell", "correcta":"Lyanna Stark"},
-	{"numero":"8", "pregunta":"¿Cuál de estos votos NO forma parte del juramento de la Guardia de la Noche?", "mala1":"No llevaré corona, no alcanzaré la gloria", "mala2":"Mi guardia no terminará hasta el día de mi muerte", "correcta":"No traicionaré a los demás guardianes"},
-	{"numero":"9", "pregunta":"¿Quién era antes el Rey de la Noche?", "mala1":"El rey del invierno", "mala2":"El cuervo de tres ojos", "correcta":"Un Lord Comandante de la Guardia de la Noche"},
-	{"numero":"10", "pregunta":"¿De qué esta hecha la espada de Jon Snow?", "mala1":"Arciano", "mala2":"Vhagar", "correcta":"Acero valyrio"}
+	{"pregunta":"¿Cómo se llama la espada de pequeña de Arya Stark?", "mala1":"Larga Garra", "mala2":"Martillo de Batalla", "correcta":"Aguja"},
+	{"pregunta":"¿A qué mujer jura lealtad Brienne?", "mala1":"Cersei Lannister", "mala2":"Margaery Tyrell", "correcta":"Catelyn Stark"},
+	{"pregunta":"¿Cómo se llama el lobo de Jon Snow?", "mala1":"Viento Gris", "mala2":"Nymeria", "correcta":"Fantasma"},
+	{"pregunta":"¿Porqué lo único que dice este personaje es 'Hodor'?", "mala1":"Es su nombre", "mala2":"No le enseñaron más palabras", "correcta":"Es la abreviatura de Hold the Door"},
+	{"pregunta":"¿Qué hace un Dothraki cuando pierde un duelo?", "mala1":"Se separa del grupo", "mala2":"Entrega sus armas y mujeres", "correcta":"Se corta la trenza"},
+	{"pregunta":"¿Cuál no es un dragón de Daenerys?", "mala1":"Viserion", "mala2":"Drogon", "correcta":"Viseris"},
+	{"pregunta":"¿Quién es el más joven de los Stark? ", "mala1":"Arya Stark", "mala2":"Bran Stark", "correcta":"Rickon Stark"},
+	{"pregunta":"¿Cuál es la enfermedad que padece Ser Jorah Mormont?", "mala1":"Maldicion de piedra", "mala2":"Muerte Gris", "correcta":"Psoriagris"},
+	{"pregunta":"¿Cómo se llamaba el profesor de esgrima de Arya?", "mala1":"Loras Tyrel", "mala2":"Varys Forel", "correcta":"Syrio Forel"},
+	{"pregunta":"¿Qué significa 'Valar Morghulis'?", "mala1":"Todos los hombres deben servir", "mala2":"Sangre y Fuego", "correcta":"Todos los hombres deben morir"}
 ]
 }

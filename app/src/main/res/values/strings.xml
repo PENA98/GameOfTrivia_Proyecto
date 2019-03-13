@@ -3,4 +3,6 @@
     <string name="descBtnJugar">Boton para Jugar</string>
     <string name="descBtnSalir">Boton para salir de la aplicacion</string>
     <string name="descripcionGeneral">None</string>
+    <string name="puntaje">Tu puntaje</string>
+    <string name="radiobutton">RadioButton</string>
 </resources>

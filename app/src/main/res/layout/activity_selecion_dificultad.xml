@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".selecion_dificultad" android:background="@drawable/seleccionar_dificultad">
+        tools:context=".SelecionDificultad" android:background="@drawable/seleccionar_dificultad">
 
     <ImageView
             android:layout_width="wrap_content"
@@ -29,17 +29,26 @@
             android:layout_height="wrap_content" app:srcCompat="@drawable/dificil"
             android:id="@+id/BtnDificil"
             android:layout_marginTop="45dp" app:layout_constraintTop_toBottomOf="@+id/BtnMedia"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.0" android:layout_marginEnd="8dp"
+            android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:contentDescription="@string/descripcionGeneral"/>
+            android:contentDescription="@string/descripcionGeneral" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3" app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintVertical_bias="0.0"/>
     <ImageView
             android:layout_width="57dp"
             android:layout_height="55dp" app:srcCompat="@drawable/regresar"
             android:id="@+id/BtnVolver"
             android:contentDescription="@string/descripcionGeneral"
-            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="@+id/guideline3" app:layout_constraintVertical_bias="0.714"/>
+    <android.support.constraint.Guideline
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_constraintGuide_begin="604dp" android:id="@+id/guideline3"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="127dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="604dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="411dp"
+            android:layout_marginRight="411dp" app:layout_constraintStart_toStartOf="parent"/>
 </android.support.constraint.ConstraintLayout>

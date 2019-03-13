@@ -1,20 +1,20 @@
 {
 	"preguntas":
 [
-	{"numero":"1", "pregunta":"¿Cómo se llamaba la madre de Tyrion Lannister?", "mala1":"Cersei Lannister", "mala2":"Gena Lannister", "correcta":"Joanna Lannister"},
-	{"numero":"2", "pregunta":"¿Cuántos lobos huargos tenían los Stark?", "mala1":"4", "mala2":"5", "correcta":"6"},
-	{"numero":"3", "pregunta":"¿Cómo murió Jon Arryn, el antecesor de Ned Stark como Mano del Rey?", "mala1":"De un infarto ", "mala2":"Acuchillado", "correcta":"Envenenado"},
-	{"numero":"4", "pregunta":"¿Porqué lo único que dice este personaje es 'Hodor'?", "mala1":"Es su nombre", "mala2":"No le enseñaron más palabras", "correcta":"Es la abreviatura de 'Hold the Door'"},
-	{"numero":"5", "pregunta":"¿Cuál fue la causa de muerte de Khal Drogo?", "mala1":"Veneno", "mala2":"Una estampida de caballos", "correcta":"Una herida abierta"},
-	{"numero":"6", "pregunta":"¿Cuál es el nombre de la hija bastarda de Lord Harmen Uller?", "mala1":"Tyene Sand", "mala2":"Nymeria Sand", "correcta":"Ellaria Sand"},
-	{"numero":"7", "pregunta":"¿Con quién debía casarse originalmente Robert Baratheon?", "mala1":"Catelyn Tully", "mala2":"Elia Martell", "correcta":"Lyanna Stark"},
-	{"numero":"8", "pregunta":"¿Cuál de estos votos NO forma parte del juramento de la Guardia de la Noche?", "mala1":"No llevaré corona, no alcanzaré la gloria", "mala2":"Mi guardia no terminará hasta el día de mi muerte", "correcta":"No traicionaré a los demás guardianes"},
-	{"numero":"9", "pregunta":"¿Quién era antes el Rey de la Noche?", "mala1":"El rey del invierno", "mala2":"El cuervo de tres ojos", "correcta":"Un Lord Comandante de la Guardia de la Noche"},
-	{"numero":"10", "pregunta":"¿De qué esta hecha la espada de Jon Snow?", "mala1":"Arciano", "mala2":"Vhagar", "correcta":"Acero valyrio"},
-	{"numero":"11", "pregunta":"¿Cuántos hijos tiene Ned?", "mala1":"4", "mala2":"5", "correcta":"6"},
-	{"numero":"12", "pregunta":"¿Cuántos actores interpretaron a La Montaña?", "mala1":"1", "mala2":"2", "correcta":"3"},
-	{"numero":"13", "pregunta":"¿Quiénes se casan en la Boda Roja?", "mala1":"Tyrion y Sansa", "mala2":"Joffrey y Margaery", "correcta":"Edmure Tully y Roslin Frey"},
-	{"numero":"14", "pregunta":"¿Qué personajes aparecen en todos los episodios de la primera temporada?", "mala1":"Tyrion y Cersei", "mala2":"Tyrion y Joffrey", "correcta":"Cersei y Joffrey"},
-	{"numero":"15", "pregunta":"¿A qué deidad sigue Melisandre?", "mala1":"Dios", "mala2":"K'hllor", "correcta":"R'hllor"}
+	{"pregunta":"¿De qué murió el rey Robert Baratheon?", "mala1":"Cersei Lannister lo mató", "mala2":"De una congestión alcohólica", "correcta":"Por una herida que le hizo un jabalí"},
+	{"pregunta":"¿Quién le regaló los huevos de dragón a Danaerys Targaryen?", "mala1":"Khal Drogo", "mala2":"Ser Jorah Mormont", "correcta":"Illyrio Mopatis"},
+	{"pregunta":"¿Cómo es que Sandor Clegane, 'El perro', tiene esas quemaduras en el rostro?", "mala1":"A causa de un castigo", "mala2":"Se lo hizo en una batalla", "correcta":"Se la hizo su hermano"},
+	{"pregunta":"¿Dónde conoce Arya Stark a Jaqen H'Ghar?", "mala1":"Braavos", "mala2":"En Winterfell", "correcta":"En Desembarco del Rey"},
+	{"pregunta":"¿A qué casa pertenece Margaery?", "mala1":"Lannister", "mala2":"Greyjoy", "correcta":"Tyrell"},
+	{"pregunta":"¿Quién empujó a Bran por la ventana de la torre en el estreno de la serie?", "mala1":"Theon Greyjoy", "mala2":"Cersei Lannister", "correcta":"Jaime Lannister"},
+	{"pregunta":"¿El nombre del hermano mayor de Daenerys Targaryen era...?", "mala1":"Aerys", "mala2":"Aemon", "correcta":"Vyseris"},
+	{"pregunta":"¿Quién tortura a Theon Greyjoy, y lo bautiza como Reek?", "mala1":"Walder Frey", "mala2":"Roose Bolton", "correcta":"Ramsay Bolton"},
+	{"pregunta":"¿Cuál es el verdadero nombre del llamado 'Rey de más allá del muro'?", "mala1":"Tormund", "mala2":"Orell", "correcta":"Mance Rayder"},
+	{"pregunta":"¿Gracias a quién Jon Snow se convierte en Rey del Norte?", "mala1":"Little Finger", "mala2":"Sansa Stark", "correcta":"Lyanna Mormont"},
+	{"pregunta":"¿Quién ayuda a Sansa Stark a escapar de las garras de Ramsay Bolton?", "mala1":"Arya Stark", "mala2":"Bronn", "correcta":"Theon Greyjoy"},
+	{"pregunta":"¿A quién mata Daenerys?", "mala1":"Tyrion Lannister", "mala2":"Jorah Mormont", "correcta":"Los líderes de Khal"},
+	{"pregunta":"¿Qué error comete Bran en sus viajes al pasado?", "mala1":"Averiguar quien es el padre de Jon Snow", "mala2":"Desconfiar de Hodor", "correcta":"Que le vea el Rey de la noche"},
+	{"pregunta":"¿De quién es hijo realmente Jon Snow?", "mala1":"Ashara Dayne", "mala2":"La nodriza Wylla", "correcta":"Lyanna Stark"},
+	{"pregunta":"¿Gracias a quién gana la batalla de los bastardos Jon Snow?", "mala1":"El gigante Wun Wun", "mala2":"Rickon Stark", "correcta":"Petyr Baelish"}
 ]
 }

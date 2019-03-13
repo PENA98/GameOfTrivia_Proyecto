@@ -13,8 +13,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         BtnJugar.setOnClickListener{
-            val intent = Intent(this, selecion_dificultad::class.java)
+            // Mandamos a llamar el siguiente activity
+            //Para ello usamos Intent
+            val intent = Intent(this, SelecionDificultad::class.java)
             startActivity(intent)
+            finish()
         }
 
         BtnSalir.setOnClickListener {

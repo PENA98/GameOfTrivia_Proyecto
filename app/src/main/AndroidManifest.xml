@@ -9,9 +9,11 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Activity_juego">
+        <activity android:name=".PuntajeFinal">
         </activity>
-        <activity android:name=".selecion_dificultad">
+        <activity android:name=".ActivityJuego">
+        </activity>
+        <activity android:name=".SelecionDificultad">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

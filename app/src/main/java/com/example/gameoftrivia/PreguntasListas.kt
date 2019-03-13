@@ -1,4 +1,4 @@
 package com.example.gameoftrivia
 
-class PreguntasListas(var preguntas : ArrayList<preguntas>) {
+class PreguntasListas(var preguntas : ArrayList<Preguntas>) {
 }
